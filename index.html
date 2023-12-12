@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Le</title>
+
+</head>
+<body>
+<h1>Advanced CSS</h1>
+<h2>What's New in CSS3?</h2>
+<div>
+<p>This is paragraph 1.</p>
+<p>This is paragraph 2.</p>
+<p>This is paragraph 3.</p>
+<p>This is paragraph 4.</p>
+<p>This is paragraph 5.</p>
+</div>
+
+</body>
+<style>
+h1{
+transform: skew(-25deg, 0deg);
+background-color: lightblue;
+padding: 20px;
+text-align: center;
+font-size: 70px;
+margin: 0px;
+}
+h2{
+background-color: pink;
+border: 1px solid black;
+padding: 10px;
+width: 250px;
+border-radius: 10px 20px 10px 20px;
+}
+p:nth-child(3){
+transform: rotateX(180deg);
+color:red;
+text-align: left;
+}
+p::selection{
+background-color:yellow;
+color:red;
+}
+</style>
+</html>
